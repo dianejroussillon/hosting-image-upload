@@ -21,6 +21,8 @@ gem "bootstrap", "~> 5.2"
 gem "simple_form"
 gem "sassc-rails"
 
+
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
@@ -51,6 +53,8 @@ group :development, :test do
 end
 
 group :development do
+  gem "dotenv-rails"
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
